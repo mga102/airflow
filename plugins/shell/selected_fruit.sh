@@ -8,4 +8,4 @@ elif [ $1 == GRAPE ]; then
 else 
     echo "You selected other Fruit!"
 fi
-:
+
