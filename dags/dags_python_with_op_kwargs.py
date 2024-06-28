@@ -11,7 +11,7 @@ with DAG(
     catchup=False
 ) as dag:
     
-    regist_t1 = PythonOperator(
+    regist2_t1 = PythonOperator(
        task_id = 'regist2_t1',
        python_callable= regist2,
        op_args= ['hjkim', 'man', 'kr', 'seoul'],
